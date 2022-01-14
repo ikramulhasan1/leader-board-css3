@@ -1,0 +1,47 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Nunito+Sans&family=Poppins:wght@500&display=swap');
+
+body{font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+/*Fonts ends*/
+
+body{background-color: #f3f1ff;   
+}
+
+main{display: flex;
+    justify-content: center;
+}
+.container{width: 870px;
+    
+}
+.container h2{margin-top: 3px;}
+
+.top-players{background-color: white;
+    padding: 30px;    
+}
+
+.section-title{color: #562EFF;
+    font-size: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.players{display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player{display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+}
+
+.player img{width: 56px;
+    height: 56px;
+}
+
+.players-name{margin-left: 16px;}
